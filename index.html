@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Job Application Form</h1>
+      <form>
+        <div class="name-container">
+          <label for="name">Full name:</label>
+          <input id="name" type="text" required placeholder="Enter your name" />
+        </div>
+        <div class="email-container">
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            type="email"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="position-container">
+          <label for="position">Position:</label>
+          <select name="position" id="position" required>
+            <option value="" disabled selected>Select a position</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="manager">Manager</option>
+          </select>
+        </div>
+        <div class="availability-container">
+          <fieldset>
+            <legend>Availability:</legend>
+            <input
+              class="radio-btn"
+              type="radio"
+              id="radio-btn-full"
+              name="radio-btn"
+              value="fulltime"
+              checked
+            />
+            <label for="radio-btn-full">Full-Time</label>
+            <input
+              class="radio-btn"
+              type="radio"
+              id="radio-btn-part"
+              name="radio-btn"
+              value="parttime"
+            />
+            <label for="radio-btn-part">Part-Time</label>
+          </fieldset>
+        </div>
+        <div class="textarea-container">
+          <label for="text">Why do you want this job?</label>
+          <textarea></textarea>
+        </div>
+        <div class="btn-container">
+          <button type="submit">Submit Application</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
