@@ -12,12 +12,14 @@ This project demonstrates clean form structure, semantic HTML, basic styling and
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 project/
 │── index.html
 │── style.css
 │── README.md
+```
 
 ---
 
