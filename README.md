@@ -5,6 +5,12 @@ This project demonstrates clean form structure, semantic HTML, basic styling and
 
 ---
 
+## 🔗 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://mkalder.github.io/Job-Application-Form/)
+
+---
+
 ## 🛠️ Technologies Used
 
 - HTML5
